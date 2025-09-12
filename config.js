@@ -10,7 +10,7 @@ function convertToBool(text, fault = 'true') {
 
 module.exports = {
     // ===== BOT CORE SETTINGS =====
-    SESSION_ID: process.env.SESSION_ID || "",  // Your bot's session ID (keep it secure)
+    SESSION_ID: process.env.SESSION_ID || "IK~EathBJga#bs9fkkwUxG5nLt1JNo21TjyxyPXWh8tyIV_0qqWSQ3c",  // Your bot's session ID (keep it secure)
     PREFIX: getConfig("PREFIX") || ".",  // Command prefix (e.g., "., / ! * - +")
     CHATBOT: getConfig("CHATBOT") || "on", // on/off chat bot 
     BOT_NAME: process.env.BOT_NAME || getConfig("BOT_NAME") || "KHAN-MD",  // Bot's display name
@@ -19,10 +19,10 @@ module.exports = {
     BAILEYS: process.env.BAILEYS || "@whiskeysockets/baileys",  // Bot's BAILEYS
 
     // ===== OWNER & DEVELOPER SETTINGS =====
-    OWNER_NUMBER: process.env.OWNER_NUMBER || "923427582273",  // Owner's WhatsApp number
-    OWNER_NAME: process.env.OWNER_NAME || getConfig("OWNER_NAME") || "Jᴀᴡᴀᴅ TᴇᴄʜX",           // Owner's name
-    DEV: process.env.DEV || "923427582273",                     // Developer's contact number
-    DEVELOPER_NUMBER: '923427582273@s.whatsapp.net',            // Developer's WhatsApp ID
+    OWNER_NUMBER: process.env.OWNER_NUMBER || "256745944178",  // Owner's WhatsApp number
+    OWNER_NAME: process.env.OWNER_NAME || getConfig("OWNER_NAME") || "Jᴀʏᴅᴇɴ Jᴀᴠᴀ",           // Owner's name
+    DEV: process.env.DEV || "256745944178",                     // Developer's contact number
+    DEVELOPER_NUMBER: '256745944178@s.whatsapp.net',            // Developer's WhatsApp ID
 
     // ===== AUTO-RESPONSE SETTINGS =====
     AUTO_REPLY: process.env.AUTO_REPLY || "false",              // Enable/disable auto-reply
@@ -41,7 +41,7 @@ module.exports = {
     AUTO_RECORDING: process.env.AUTO_RECORDING || "false",      // Auto-record voice notes?
     AUTO_TYPING: process.env.AUTO_TYPING || "false",            // Show typing indicator?
     MENTION_REPLY: process.env.MENTION_REPLY || "false",   // reply on mentioned message 
-    MENU_IMAGE_URL: getConfig("MENU_IMAGE_URL") || "https://files.catbox.moe/7zfdcq.jpg",  // Bot's "alive" menu mention image
+    MENU_IMAGE_URL: getConfig("MENU_IMAGE_URL") || "https://qu.ax/VFmjR.jpg",  // Bot's "alive" menu mention image
 
     // ===== SECURITY & ANTI-FEATURES =====
     ANTI_DELETE: process.env.ANTI_DELETE || "true", // true antidelete to recover deleted messages 
@@ -55,7 +55,7 @@ module.exports = {
     PM_BLOCKER: process.env.PM_BLOCKER || "true",
 
     // ===== BOT BEHAVIOR & APPEARANCE =====
-    DESCRIPTION: process.env.DESCRIPTION || "*© ᴘᴏᴡᴇʀᴇᴅ ʙʏ Jᴀᴡᴀᴅ TᴇᴄʜX*",  // Bot description
+    DESCRIPTION: process.env.DESCRIPTION || "*© ᴘᴏᴡᴇʀᴇᴅ ʙʏ Jᴀʏᴅᴇɴ Jᴀᴠᴀ*",  // Bot description
     PUBLIC_MODE: process.env.PUBLIC_MODE || "true",              // Allow public commands?
     ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "false",        // Show bot as always online?
     AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "true", // React to status updates?
